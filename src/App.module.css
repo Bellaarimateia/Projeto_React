@@ -1,0 +1,97 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background: #1e1e2f;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+/* Container do login */
+.loginBox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Quando logado */
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #2c2c3e;
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: white;
+}
+
+/* Foto */
+.profilePicture {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+/* Nome */
+.userName {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Botão sair */
+.logoutButton {
+  background: transparent;
+  border: 1px solid #ff4d4d;
+  color: #ff4d4d;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logoutButton:hover {
+  background: #ff4d4d;
+  color: white;
+}
+
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+.home-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: white;
+  color: #2a5298;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.home-button:hover {
+  transform: translateY(-3px);
+  background: #f1f1f1;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
