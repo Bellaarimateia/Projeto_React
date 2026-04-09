@@ -1,9 +1,10 @@
 import "./Descricao.css";
+import { Link } from 'react-router';
 import isabella from "../assets/isabella.jpg";
 import jamerson from "../assets/jamerson.jpg";
 import back from "../assets/button-back.png";
 
-function Descricao() {
+export function Descricao() {
   return (
     <div className="pagina">
 
@@ -76,8 +77,9 @@ function Descricao() {
 
       {/* Button-Back */}
 
-      <img src={back} alt="Voltar" className="botao-voltar" />
-    
+        <Link to='/'>
+          <img src={back} alt="Voltar" className="botao-voltar" />
+        </Link>
 
     </div>
 
@@ -85,4 +87,4 @@ function Descricao() {
   );
 }
 
-export default Descricao;
+export default Descricao; 

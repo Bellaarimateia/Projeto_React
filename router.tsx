@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router';
 import { Home} from './src/Home.tsx';
-import { Descricao } from './pages/Descricao.tsx';
+import { Descricao} from './src/pages/Descricao.tsx';
 import { Cadastro } from './pages/Cadastro.tsx';
 
 
