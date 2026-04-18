@@ -1,11 +1,41 @@
+.descricao-page {
+  min-height: 100vh;
+  background-color: #d9d9d9;
+  padding: 24px 32px;
+}
+
+.descricao-topo {
+  max-width: 1100px;
+  margin: 0 auto 20px auto;
+}
+
+.voltar-link {
+  text-decoration: none;
+  color: #2d3f8f;
+  background-color: #eef2ff;
+  border: 1px solid #cfd8f6;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.voltar-link:hover {
+  background-color: #dfe8ff;
+  color: #1c2f7a;
+  transform: translateY(-1px);
+}
+
 .pagina {
   display: flex;
   justify-content: center;
   gap: 40px;
-  padding: 50px;
+  padding: 10px;
   flex-wrap: wrap;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-  min-height: 100vh;
 }
 
 .card {
@@ -25,15 +55,9 @@
   margin-bottom: 15px;
 }
 
-.subtitulo {
-  color: #666;
-  margin-bottom: 20px;
-  font-size: bold;
-}
-
 .card h1 {
   width: 200px;
-  margin: 0 auto 0px;
+  margin: 0 auto;
   text-align: center;
   line-height: 1.2;
   font-size: 28px;
@@ -50,18 +74,23 @@
   line-height: 1.5;
 }
 
-.botao-voltar {
-  position: fixed; /* fixa na tela */
-  top: 20px;
-  bottom: 5px; /* distância do fundo */
-  left: 50px; /* distância da esquerda */
-  width: 60px; /* tamanho da imagem */
-  height: 50px;
-  cursor: pointer; /* vira mãozinha */
-  transition: transform 0.2s ease;
+.subtitulo {
+  color: #666;
+  margin-bottom: 20px;
 }
 
-/* efeito ao passar o mouse */
-.botao-voltar:hover {
-  transform: scale(1.1);
+.titulo-area {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.titulo-area h1 {
+  font-size: 36px;
+  color: #17172f;
+  margin-bottom: 8px;
+}
+
+.titulo-area p {
+  color: #555;
+  font-size: 20px;
 }

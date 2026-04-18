@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cadastro-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4f7fb, #e8eef9);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 28px;
+}
+
+/* botão voltar sozinho no topo */
+.topo-acoes {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 18px auto;
+  padding: 0 20px;
+}
+
+.voltar-link {
+  text-decoration: none;
+  color: #2d3f8f;
+  background-color: #eef2ff;
+  border: 1px solid #cfd8f6;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.voltar-link:hover {
+  background-color: #dfe8ff;
+  color: #1c2f7a;
+  transform: translateY(-1px);
+}
+
+/* conteúdo principal */
+.cadastro-conteudo {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px 50px;
+}
+
+.titulo-pagina {
+  font-size: 18px;
+  font-weight: 700;
+  color: #17172f;
+  margin-bottom: 16px;
+}
+
+/* card do formulário */
+.cadastro-card,
+.json-card {
+  background-color: white;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+}
+
+.subtitulo {
+  color: #555;
+  margin-bottom: 24px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.cadastro-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #2a2a2a;
+  font-size: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px 14px;
+  border: 1px solid #cfd7e6;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #4b63c8;
+  box-shadow: 0 0 0 3px rgba(75, 99, 200, 0.15);
+}
+
+.salvar-btn {
+  background: linear-gradient(90deg, #4b63c8, #2d47b8);
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.salvar-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+/* card do json */
+.json-card h3 {
+  color: #17172f;
+  margin-bottom: 10px;
+}
+
+.json-card pre {
+  background-color: #101522;
+  color: #7ef7b8;
+  padding: 18px;
+  border-radius: 12px;
+  overflow-x: auto;
+  font-size: 14px;
+  margin-top: 12px;
+}

@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router';
 import { Home} from './src/Home.tsx';
 import { Descricao} from './src/pages/Descricao.tsx';
-import { Cadastro } from './pages/Cadastro.tsx';
+import { Cadastro } from "./src/pages/Cadastro.tsx";
 
 
 export function AppRouter(){
