@@ -34,18 +34,6 @@ export function Cadastro() {
     }));
   }
 
-  function handleGoogleLogin() {
-    const dadosGoogle = {
-      nome: "Isabella Moreira",
-      email: "isabella@email.com",
-    };
-
-    setUsuario((prev) => ({
-      ...prev,
-      nome: dadosGoogle.nome,
-      email: dadosGoogle.email,
-    }));
-  }
 
   function finalizarCadastro(e: React.FormEvent) {
     e.preventDefault();
